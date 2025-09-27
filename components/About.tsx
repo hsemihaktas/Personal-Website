@@ -1,6 +1,26 @@
+"use client";
+
 import Image from "next/image";
+import { useLang } from "../context/LangContext";
 
 export default function About() {
+  const { lang } = useLang();
+
+  const aboutContent = {
+    en: {
+      title: "About Me",
+      description:
+        "Hello! I'm Hasan Semih Aktaş. I've built websites using React, Next.js, TypeScript, and modern web technologies. Recently, I've been learning to develop mobile applications with React Native. I enjoy keeping up with new technologies, experimenting with them, and constantly improving myself. My goal is to develop applications and websites that everyone can use and enjoy.",
+    },
+    tr: {
+      title: "Hakkımda",
+      description:
+        "Merhaba! Ben Hasan Semih Aktaş. React, Next.js, TypeScript ve modern web teknolojilerini kullanarak web siteleri geliştirdim. Son zamanlarda React Native ile mobil uygulama geliştirmeyi öğreniyorum. Yeni teknolojileri takip etmeyi, denemeyi ve kendimi sürekli geliştirmeyi seviyorum. Amacım, herkesin kullanabileceği ve keyif alabileceği uygulamalar ve web siteleri geliştirmek.",
+    },
+  };
+
+  const content = aboutContent[lang];
+
   return (
     <section
       id="about"
@@ -20,14 +40,11 @@ export default function About() {
             </div>
           </div>
           <div className="w-full md:w-2/3">
-            <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
+            <h2 className="text-3xl font-bold mb-4 text-white">
+              {content.title}
+            </h2>
             <p className="text-base leading-relaxed text-gray-300">
-              Hello! I'm Hasan Semih Aktaş. I've built websites using React,
-              Next.js, TypeScript, and modern web technologies. Recently, I've
-              been learning to develop mobile applications with React Native. I
-              enjoy keeping up with new technologies, experimenting with them,
-              and constantly improving myself. My goal is to develop
-              applications and websites that everyone can use and enjoy.
+              {content.description}
             </p>
           </div>
         </div>

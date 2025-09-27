@@ -1,4 +1,21 @@
+"use client";
+
+import { useLang } from "../context/LangContext";
+
 export default function Footer() {
+  const { lang } = useLang();
+
+  const footerContent = {
+    en: {
+      copyright: "© 2024 Tech Engineer. All rights reserved.",
+    },
+    tr: {
+      copyright: "© 2024 Tech Engineer. Tüm hakları saklıdır.",
+    },
+  };
+
+  const content = footerContent[lang];
+
   return (
     <footer className="border-t border-secondary-dark/50">
       <div className="max-w-4xl mx-auto px-5 py-10 text-center">
@@ -46,9 +63,7 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-        <p className="text-sm text-gray-400">
-          © 2024 Tech Engineer. All rights reserved.
-        </p>
+        <p className="text-sm text-gray-400">{content.copyright}</p>
       </div>
     </footer>
   );

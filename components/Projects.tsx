@@ -4,9 +4,26 @@ import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import ProjectCard from "./ProjectCard";
 import projects from "../data/projects.json";
+import { useLang } from "../context/LangContext";
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
+  const { lang } = useLang();
+
+  const projectsContent = {
+    en: {
+      title: "Featured Projects",
+      buttonShowAll: "View All Projects",
+      buttonShowLess: "Show Less",
+    },
+    tr: {
+      title: "Öne Çıkan Projeler",
+      buttonShowAll: "Tüm Projeleri Gör",
+      buttonShowLess: "Daha Az Göster",
+    },
+  };
+
+  const content = projectsContent[lang];
   const visibleProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
@@ -16,7 +33,7 @@ export default function Projects() {
     >
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-white text-center">
-          Featured Projects
+          {content.title}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
@@ -34,8 +51,11 @@ export default function Projects() {
               <div>
                 <ProjectCard
                   image={project.coverImageFile}
-                  title={project.title.EN}
-                  description={project.description.EN}
+                  title={{ EN: project.title.EN, TR: project.title.TR }}
+                  description={{
+                    EN: project.description.EN,
+                    TR: project.description.TR,
+                  }}
                   url={project.url}
                 />
               </div>
@@ -48,7 +68,7 @@ export default function Projects() {
             className="bg-accent-dark hover:bg-accent-dark/80 text-primary-dark font-bold rounded-lg h-10 px-5 text-sm transition-colors"
           >
             <span className="truncate">
-              {showAll ? "Show Less" : "View All Projects"}
+              {showAll ? content.buttonShowLess : content.buttonShowAll}
             </span>
           </button>
         </div>
