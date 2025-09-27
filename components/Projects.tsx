@@ -24,7 +24,6 @@ export default function Projects() {
   };
 
   const content = projectsContent[lang];
-  const visibleProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
     <section
