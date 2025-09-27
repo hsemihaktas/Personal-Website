@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="relative z-10 flex h-full grow flex-col">
         <Navbar />
         <Hero />
+        <About />
       </div>
     </div>
   );
