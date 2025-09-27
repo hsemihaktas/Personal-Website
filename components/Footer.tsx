@@ -20,11 +20,37 @@ export default function Footer() {
   return (
     <footer className="border-t border-secondary-dark/50">
       <div className="max-w-4xl mx-auto px-5 py-10 text-center">
+        <div className="flex justify-center items-center gap-2 mb-4">
+          <svg
+            className="w-5 h-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            ></path>
+          </svg>
+          <a
+            className="text-gray-400 hover:text-accent-dark transition-colors"
+            href="https://mail.google.com/mail/?view=cm&to=hsemihaktas@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hsemihaktas@gmail.com
+          </a>
+        </div>
         <div className="flex justify-center gap-6 mb-6">
           <Link
             className="text-gray-400 hover:text-accent-dark transition-colors"
             href="https://www.linkedin.com/in/hsemihaktas/"
-            aria-label="LinkedIn Profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            passHref
           >
             <svg
               fill="currentColor"
@@ -39,7 +65,9 @@ export default function Footer() {
           <Link
             className="text-gray-400 hover:text-accent-dark transition-colors"
             href="https://github.com/hsemihaktas"
-            aria-label="GitHub Profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            passHref
           >
             <svg
               fill="currentColor"
