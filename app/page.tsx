@@ -1,7 +1,12 @@
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
   return (
-    <div className="font-display text-primary-dark bg-secondary-dark p-4 rounded-lg">
-      Merhaba Dünya
+    <div className="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+      <div className="absolute inset-0 bg-primary-dark/70 z-0"></div>
+      <div className="relative z-10 flex h-full grow flex-col">
+        <Navbar />
+      </div>
     </div>
   );
 }
