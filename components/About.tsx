@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useLang } from "../context/LangContext";
+import { FaDownload } from "react-icons/fa";
 
 export default function About() {
   const { lang } = useLang();
@@ -46,6 +47,18 @@ export default function About() {
             <p className="text-base leading-relaxed text-gray-300">
               {content.description}
             </p>
+            <div className="mt-4 inline-block">
+              <a
+                href="/HasanSemihAktaş-CV.pdf" // Replace with the actual path to your resume file
+                download
+                className="flex items-center gap-2 bg-accent-dark text-primary-dark font-bold py-2 px-4 rounded-lg hover:bg-accent-dark/80 transition-colors"
+              >
+                <FaDownload />
+                <span>
+                  {lang === "en" ? "Download Resume" : "Özgeçmişi İndir"}
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useLang } from "../context/LangContext";
 
 const navContent = {
@@ -41,24 +42,18 @@ export default function Navbar() {
         <h2 className="text-xl font-bold">Tech Engineer</h2>
       </div>
       <nav className="hidden md:flex items-center gap-8 ">
-        <a
+        <Link
           className="text-sm font-medium hover:text-accent-dark transition-colors"
           href="/"
         >
           {content.about}
-        </a>
-        <a
+        </Link>
+        <Link
           className="text-sm font-medium hover:text-accent-dark transition-colors"
-          href="#"
+          href="/projects"
         >
           {content.projects}
-        </a>
-        <a
-          className="text-sm font-medium hover:text-accent-dark transition-colors"
-          href="#"
-        >
-          {content.resume}
-        </a>
+        </Link>
       </nav>
       <div className="flex items-center gap-4">
         <button
