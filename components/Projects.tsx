@@ -35,7 +35,8 @@ export default function Projects() {
                 <ProjectCard
                   image={project.coverImageFile}
                   title={project.title.EN}
-                  description={project.shortDescription.EN}
+                  description={project.description.EN}
+                  url={project.url}
                 />
               </div>
             </Transition>

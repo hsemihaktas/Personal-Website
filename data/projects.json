@@ -1,17 +1,33 @@
 [
   {
     "title": { "EN": "Encrypt Diary", "TR": "Encrypt Diary" },
-    "description": {
-      "EN": "-Secure Notes: Stores personal notes securely with AES based encryption. -React Native & Expo: Mobile app for both iOS and Android. -Data Management: Add, read, update, and delete notes. -Advanced Encryption: Uses expo crypto for note encryption, accessible only with the correct key. -User Experience: Minimal and user friendly interface design.",
-      "TR": "-Güvenli Notlar: Kullanıcıların kişisel notlarını AES tabanlı şifreleme ile güvenli bir şekilde saklar. -React Native & Expo: Hem iOS hem Android platformlarında çalışabilen mobil uygulama. -Veri Yönetimi: Not ekleme, okuma, güncelleme ve silme işlemleri. -Gelişmiş Şifreleme: expo-crypto kullanarak notların şifrelenmesi ve yalnızca doğru anahtar ile erişim sağlanması. -Kullanıcı Deneyimi: Minimal ve kullanıcı dostu arayüz tasarımı."
+    "features": {
+      "EN": [
+        "Stores personal notes securely with AES based encryption.",
+        "Mobile app for both iOS and Android built with React Native & Expo.",
+        "Add, read, update, and delete notes easily.",
+        "Encryption powered by expo-crypto, accessible only with the correct key.",
+        "Minimal and user-friendly interface design."
+      ],
+      "TR": [
+        "Kişisel notları AES tabanlı şifreleme ile güvenli bir şekilde saklar.",
+        "React Native & Expo ile geliştirilmiş iOS ve Android için mobil uygulama.",
+        "Notları kolayca ekleyin, okuyun, güncelleyin ve silin.",
+        "Sadece doğru anahtarla erişilebilen expo-crypto tarafından desteklenen şifreleme.",
+        "Minimal ve kullanıcı dostu arayüz tasarımı."
+      ]
     },
-    "shortDescription": {
+    "description": {
       "EN": "A secure note taking app with AES encryption, built using React Native & Expo.",
       "TR": "AES şifreleme ile güvenli not tutma uygulaması, React Native & Expo ile geliştirildi."
     },
     "codeLink": "https://github.com/hsemihaktas/EncryptDiary",
-    "coverImageFile": "images/Encrypt-Diary-Icon.png",
-    "imageFiles": [],
+    "coverImageFile": "/images/Encrypt-Diary-Icon.png",
+    "imageFiles": [
+      "/images/Encrypt-Diary-Icon.png",
+      "/images/Encrypt-Diary-Icon.png",
+      "/images/Encrypt-Diary-Icon.png"
+    ],
     "projectSite": "",
     "url": "/project/encrypt-diary",
     "technologies": ["React Native", "Expo", "expo-crypto", "AES", "Mobile"]
@@ -21,16 +37,24 @@
       "EN": "Word Application - Lexicon",
       "TR": "Word Application - Lexicon"
     },
-    "description": {
-      "EN": "-Word translation and synonym display (with MyMemory & Datamuse API). -Add/remove favorites and interactive word learning with game mode. -Built using React Native, Expo, Context API, React Navigation, Material Icons, Axios/Fetch.",
-      "TR": "-Kelime çeviri ve eşanlamlı gösterimi (MyMemory & Datamuse API ile). -Favorilere ekleme/çıkarma ve oyun moduyla etkileşimli kelime öğrenimi. -React Native, Expo, Context API, React Navigation, Material Icons, Axios/Fetch teknolojileri kullanıldı."
+    "features": {
+      "EN": [
+        "Word translation and synonym display (with MyMemory & Datamuse API).",
+        "Add/remove favorites and interactive word learning with game mode.",
+        "Built using React Native, Expo, Context API, React Navigation, Material Icons, Axios/Fetch."
+      ],
+      "TR": [
+        "Kelime çeviri ve eşanlamlı gösterimi (MyMemory & Datamuse API ile).",
+        "Favorilere ekleme/çıkarma ve oyun moduyla etkileşimli kelime öğrenimi.",
+        "React Native, Expo, Context API, React Navigation, Material Icons, Axios/Fetch teknolojileri kullanıldı."
+      ]
     },
-    "shortDescription": {
+    "description": {
       "EN": "A mobile app for word translation, synonyms, and interactive learning.",
       "TR": "Kelime çeviri, eşanlamlı ve etkileşimli öğrenim için mobil uygulama."
     },
     "codeLink": "https://github.com/hsemihaktas/Lexicon-WordApplication",
-    "coverImageFile": "images/Lexicon-Icon.png",
+    "coverImageFile": "/images/Lexicon-Icon.png",
     "imageFiles": [],
     "projectSite": "",
     "url": "/project/word-application-lexicon",
@@ -38,16 +62,26 @@
   },
   {
     "title": { "EN": "IMDB Series Tierlist", "TR": "IMDB Dizi Tier Listesi" },
-    "description": {
-      "EN": "-A web application to rank TV series based on IMDB ratings. -Built using React.js and TailwindCSS for a responsive and visually appealing interface. -Features drag and drop functionality for creating tier lists. -Data fetched using a Python script based scraper for IMDB series data.",
-      "TR": "-IMDB puanlarına göre dizileri sıralamak için bir web uygulaması. -React.js ve TailwindCSS kullanılarak duyarlı ve görsel olarak çekici bir arayüz oluşturuldu. -Tier listeleri oluşturmak için sürükle bırak işlevselliği içerir. -IMDB dizi verilerini almak için Python script tabanlı bir scraper kullanıldı."
+    "features": {
+      "EN": [
+        "A web application to rank TV series based on IMDB ratings.",
+        "Built using React.js and TailwindCSS for a responsive and visually appealing interface.",
+        "Features drag and drop functionality for creating tier lists.",
+        "Data fetched using a Python script based scraper for IMDB series data."
+      ],
+      "TR": [
+        "IMDB puanlarına göre dizileri sıralamak için bir web uygulaması.",
+        "React.js ve TailwindCSS kullanılarak duyarlı ve görsel olarak çekici bir arayüz oluşturuldu.",
+        "Tier listeleri oluşturmak için sürükle bırak işlevselliği içerir.",
+        "IMDB dizi verilerini almak için Python script tabanlı bir scraper kullanıldı."
+      ]
     },
-    "shortDescription": {
+    "description": {
       "EN": "A web app for ranking TV series with drag-and-drop functionality and data fetched via Python scraper.",
       "TR": "Sürükle bırak işlevselliği ve Python scraper ile veri çekme özellikli dizi sıralama web uygulaması."
     },
     "codeLink": "https://github.com/hsemihaktas/IMDB-Series-Tierlist",
-    "coverImageFile": "images/IMDB-Series-Tierlist.jpeg",
+    "coverImageFile": "/images/IMDB-Series-Tierlist.jpeg",
     "imageFiles": [],
     "projectSite": "https://imdb-series-tierlist.vercel.app/",
     "url": "/project/imdb-series-tierlist",
@@ -61,16 +95,22 @@
   },
   {
     "title": { "EN": "Property Website", "TR": "Emlak Web Sitesi" },
-    "description": {
-      "EN": "-Developed a full stack web application for property management using React.js, Node.js, and MySQL. -Successfully managed listing operations through efficient CRUD operations.",
-      "TR": "-React.js, Node.js ve MySQL kullanarak mülk yönetimi için bir tam yığın web uygulaması geliştirdim. -CRUD işlemleri sayesinde ilan işlemlerini sorunsuz bir şekilde gerçekleştirdim."
+    "features": {
+      "EN": [
+        "Developed a full stack web application for property management using React.js, Node.js, and MySQL.",
+        "Successfully managed listing operations through efficient CRUD operations."
+      ],
+      "TR": [
+        "React.js, Node.js ve MySQL kullanarak mülk yönetimi için bir tam yığın web uygulaması geliştirdim.",
+        "CRUD işlemleri sayesinde ilan işlemlerini sorunsuz bir şekilde gerçekleştirdim."
+      ]
     },
-    "shortDescription": {
+    "description": {
       "EN": "A platform for managing property listings with secure authentication, built using React, Node.js, and MySQL.",
       "TR": "React, Node.js ve MySQL kullanılarak inşa edilen, güvenli kimlik doğrulama ile emlak listelemelerini yönetmek için bir platform."
     },
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
-    "coverImageFile": "images/EstateWebsite.png",
+    "coverImageFile": "/images/EstateWebsite.png",
     "imageFiles": [],
     "projectSite": "",
     "url": "/project/property-website",
@@ -81,16 +121,24 @@
       "EN": "Birthday Organization Website",
       "TR": "Doğum Günü Organizasyon Web Sitesi"
     },
-    "description": {
-      "EN": "-Developed a vibrant and user friendly website for birthday party planning. -Built with Next.js and integrated EmailJS for seamless contact form functionality. -Offers customized birthday packages and online reservation features to enhance user engagement and booking experience.",
-      "TR": "-Doğum günü partisi planlaması için canlı ve kullanıcı dostu bir web sitesi geliştirdim. -İletişim formu işlevselliği için EmailJS entegrasyonu ile Next.js kullanılarak oluşturuldu. -Kullanıcı etkileşimini ve rezervasyon deneyimini artırmak amacıyla kişiye özel doğum günü paketleri ve online rezervasyon özellikleri sunar."
+    "features": {
+      "EN": [
+        "Developed a vibrant and user friendly website for birthday party planning.",
+        "Built with Next.js and integrated EmailJS for seamless contact form functionality.",
+        "Offers customized birthday packages and online reservation features to enhance user engagement and booking experience."
+      ],
+      "TR": [
+        "Doğum günü partisi planlaması için canlı ve kullanıcı dostu bir web sitesi geliştirdim.",
+        "İletişim formu işlevselliği için EmailJS entegrasyonu ile Next.js kullanılarak oluşturuldu.",
+        "Kullanıcı etkileşimini ve rezervasyon deneyimini artırmak amacıyla kişiye özel doğum günü paketleri ve online rezervasyon özellikleri sunar."
+      ]
     },
-    "shortDescription": {
+    "description": {
       "EN": "A birthday party organization website with online reservation and contact form via EmailJS.",
       "TR": "EmailJS ile iletişim formu ve online rezervasyon özellikli doğum günü organizasyon web sitesi."
     },
     "codeLink": "https://github.com/hsemihaktas/Birthday-Organization",
-    "coverImageFile": "images/Birthday-Organization.jpeg",
+    "coverImageFile": "/images/Birthday-Organization.jpeg",
     "imageFiles": [],
     "projectSite": "https://birthday-organization.vercel.app/",
     "url": "/project/birthday-organization",
@@ -98,16 +146,22 @@
   },
   {
     "title": { "EN": "PAE Website", "TR": "PAE Web Sitesi" },
-    "description": {
-      "EN": "-Developed an optimized web application with Next.js using Tailwind CSS and HTML5. -Collaborated with UI/UX teams to ensure timely completion of projects.",
-      "TR": "-Tailwind CSS ve HTML5 kullanarak Next.js ile optimize edilmiş bir web uygulaması geliştirdim. -UI/UX ekipleriyle koordineli çalışarak projelerin zamanında tamamlanmasını sağladım."
+    "features": {
+      "EN": [
+        "Developed an optimized web application with Next.js using Tailwind CSS and HTML5.",
+        "Collaborated with UI/UX teams to ensure timely completion of projects."
+      ],
+      "TR": [
+        "Tailwind CSS ve HTML5 kullanarak Next.js ile optimize edilmiş bir web uygulaması geliştirdim.",
+        "UI/UX ekipleriyle koordineli çalışarak projelerin zamanında tamamlanmasını sağladım."
+      ]
     },
-    "shortDescription": {
+    "description": {
       "EN": "A fast and responsive Next.js website with a user friendly interface and optimized performance.",
       "TR": "Hızlı ve duyarlı bir Next.js web sitesi, kullanıcı dostu bir arayüz ve optimize edilmiş performans."
     },
     "codeLink": "",
-    "coverImageFile": "images/PAE.jpeg",
+    "coverImageFile": "/images/PAE.jpeg",
     "imageFiles": [],
     "projectSite": "",
     "url": "/project/pae-website",
@@ -115,16 +169,24 @@
   },
   {
     "title": { "EN": "Now Yapı Website", "TR": "Now Yapı Web Sitesi" },
-    "description": {
-      "EN": "-Led the development of a React.js based frontend and integrated responsive designs using Tailwind CSS. -Created interactive sliders with Swiper.js, enhancing visual appeal and user engagement. -Streamlined API communication with JSON data integration, ensuring seamless data retrieval.",
-      "TR": "-React.js tabanlı bir frontend geliştirmesin bulundum, Tailwind CSS ile responsive tasarımlar entegre ettim. -Swiper.js kullanarak etkileşimli slider’lar oluşturdum, görsel çekicilik ve kullanıcı etkileşimini artırdım. -JSON veri entegrasyonu ile API iletişimini düzenleyerek gerekli verilerin sorunsuz bir şekilde çekilmesini sağladım."
+    "features": {
+      "EN": [
+        "Led the development of a React.js based frontend and integrated responsive designs using Tailwind CSS.",
+        "Created interactive sliders with Swiper.js, enhancing visual appeal and user engagement.",
+        "Streamlined API communication with JSON data integration, ensuring seamless data retrieval."
+      ],
+      "TR": [
+        "React.js tabanlı bir frontend geliştirmesin bulundum, Tailwind CSS ile responsive tasarımlar entegre ettim.",
+        "Swiper.js kullanarak etkileşimli slider’lar oluşturdum, görsel çekicilik ve kullanıcı etkileşimini artırdım.",
+        "JSON veri entegrasyonu ile API iletişimini düzenleyerek gerekli verilerin sorunsuz bir şekilde çekilmesini sağladım."
+      ]
     },
-    "shortDescription": {
+    "description": {
       "EN": "An elegant React based website for a construction company, featuring interactive sliders and seamless UX.",
       "TR": "Etkileşimli kaydırıcılar ve sorunsuz UX içeren, bir inşaat şirketi için şık bir React tabanlı web sitesi."
     },
     "codeLink": "",
-    "coverImageFile": "images/NowYapı.jpeg",
+    "coverImageFile": "/images/NowYapı.jpeg",
     "imageFiles": [],
     "projectSite": "https://now-yapi.vercel.app/",
     "url": "/project/now-yapi-website",
@@ -139,16 +201,26 @@
   },
   {
     "title": { "EN": "Riot Twitch Bot", "TR": "Riot Twitch Botu" },
-    "description": {
-      "EN": "-Designed and developed a Twitch chatbot using Node.js and Axios to access the Riot Games API. -Provided viewers with real time game data for League of Legends and Teamfight Tactics, enhancing interaction during Twitch streams. -Integrated the Twitch API for seamless communication with the chat system, enabling immediate responses to viewer queries. -Focused on optimizing API calls to ensure reliable and up to date data retrieval.",
-      "TR": "-Node.js ve Axios kullanarak Riot Games API'sine erişim sağlayan bir Twitch chatbot'u tasarladım ve geliştirdim. -Twitch yayınları sırasında izleyicilerle etkileşimi artırarak, League of Legends ve Teamfight Tactics için gerçek zamanlı oyun verileri sağladım. -Twitch API'sini entegre ederek sohbet sistemiyle sorunsuz iletişim sağladım ve izleyicilerin sorgularına anında yanıt verdim. -API çağrılarını optimize ederek güvenilir ve güncel veri alımını sağladım."
+    "features": {
+      "EN": [
+        "Designed and developed a Twitch chatbot using Node.js and Axios to access the Riot Games API.",
+        "Provided viewers with real time game data for League of Legends and Teamfight Tactics, enhancing interaction during Twitch streams.",
+        "Integrated the Twitch API for seamless communication with the chat system, enabling immediate responses to viewer queries.",
+        "Focused on optimizing API calls to ensure reliable and up to date data retrieval."
+      ],
+      "TR": [
+        "Node.js ve Axios kullanarak Riot Games API'sine erişim sağlayan bir Twitch chatbot'u tasarladım ve geliştirdim.",
+        "Twitch yayınları sırasında izleyicilerle etkileşimi artırarak, League of Legends ve Teamfight Tactics için gerçek zamanlı oyun verileri sağladım.",
+        "Twitch API'sini entegre ederek sohbet sistemiyle sorunsuz iletişim sağladım ve izleyicilerin sorgularına anında yanıt verdim.",
+        "API çağrılarını optimize ederek güvenilir ve güncel veri alımını sağladım."
+      ]
     },
-    "shortDescription": {
+    "description": {
       "EN": "A Twitch bot that provides live game stats for League of Legends and Teamfight Tactics using Riot API.",
       "TR": "Riot API'sini kullanarak, League of Legends ve Teamfight Tactics için canlı oyun istatistikleri sağlayan bir Twitch botu."
     },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
-    "coverImageFile": "images/RiotTwitchBot.png",
+    "coverImageFile": "/images/RiotTwitchBot.png",
     "imageFiles": [],
     "projectSite": "",
     "url": "/project/riot-twitch-bot",
@@ -159,16 +231,24 @@
       "EN": "Riot Twitch Bot Website",
       "TR": "Riot Twitch Botu Web Sitesi"
     },
-    "description": {
-      "EN": "-Created a dedicated website to showcase the Riot Twitch Bot project, enhancing its visibility and engagement. -Built with React.js, HTML5, and CSS3 to provide a visually appealing and responsive design. -Included interactive elements to help users explore and understand the features of the Riot Twitch Bot, fostering community interest and participation.",
-      "TR": "-Riot Twitch Botu projesini sergilemek için özel bir web sitesi oluşturduk, görünürlüğünü ve etkileşimini artırdık. -React.js, HTML5 ve CSS3 ile görsel olarak çekici ve duyarlı bir tasarım sundum. -Kullanıcıların Riot Twitch Botu'nun özelliklerini keşfetmesine yardımcı olacak etkileşimli öğeler ekledim, topluluk ilgisini ve katılımını teşvik ettim."
+    "features": {
+      "EN": [
+        "Created a dedicated website to showcase the Riot Twitch Bot project, enhancing its visibility and engagement.",
+        "Built with React.js, HTML5, and CSS3 to provide a visually appealing and responsive design.",
+        "Included interactive elements to help users explore and understand the features of the Riot Twitch Bot, fostering community interest and participation."
+      ],
+      "TR": [
+        "Riot Twitch Botu projesini sergilemek için özel bir web sitesi oluşturduk, görünürlüğünü ve etkileşimini artırdık.",
+        "React.js, HTML5 ve CSS3 ile görsel olarak çekici ve duyarlı bir tasarım sundum.",
+        "Kullanıcıların Riot Twitch Botu'nun özelliklerini keşfetmesine yardımcı olacak etkileşimli öğeler ekledim, topluluk ilgisini ve katılımını teşvik ettim."
+      ]
     },
-    "shortDescription": {
+    "description": {
       "EN": "A showcase website for the Riot Twitch Bot project, featuring interactive elements and responsive design.",
       "TR": "Riot Twitch Botu projesi için etkileşimli öğeler ve duyarlı tasarım içeren bir sergileme web sitesi."
     },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
-    "coverImageFile": "images/RiotTwitchBotWebsite.png",
+    "coverImageFile": "/images/RiotTwitchBotWebsite.png",
     "imageFiles": [],
     "projectSite": "https://riottwitchbot.vercel.app/",
     "url": "/project/riot-twitch-bot-website",
