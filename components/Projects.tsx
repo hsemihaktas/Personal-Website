@@ -66,6 +66,7 @@ export default function Projects() {
           <button
             onClick={() => setShowAll(!showAll)}
             className="bg-accent-dark hover:bg-accent-dark/80 text-primary-dark font-bold rounded-lg h-10 px-5 text-sm transition-colors"
+            aria-label={showAll ? "Show less projects" : "View all projects"}
           >
             <span className="truncate">
               {showAll ? content.buttonShowLess : content.buttonShowAll}

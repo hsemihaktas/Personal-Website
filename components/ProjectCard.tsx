@@ -44,7 +44,10 @@ export default function ProjectCard({
           </p>
         </div>
         <Link href={url}>
-          <button className="bg-accent-dark/20 text-accent-dark hover:bg-accent-dark/40 font-bold rounded-lg h-10 px-5 text-sm transition-colors w-full">
+          <button
+            className="bg-accent-dark/20 text-accent-dark hover:bg-accent-dark/40 font-bold rounded-lg h-10 px-5 text-sm transition-colors w-full"
+            aria-label={buttonText[currentLang]}
+          >
             {buttonText[currentLang]}
           </button>
         </Link>

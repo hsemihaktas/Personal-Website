@@ -12,6 +12,7 @@ const LanguageSwitcher: React.FC = () => {
     <button
       onClick={toggleLanguage}
       className="bg-accent-dark text-primary-dark font-bold py-2 px-4 rounded-lg hover:bg-accent-dark/80 transition-colors"
+      aria-label={lang === "en" ? "Switch to Turkish" : "Switch to English"}
     >
       {lang === "en" ? "Türkçe" : "English"}
     </button>

@@ -24,6 +24,7 @@ export default function Footer() {
           <Link
             className="text-gray-400 hover:text-accent-dark transition-colors"
             href="https://www.linkedin.com/in/hsemihaktas/"
+            aria-label="LinkedIn Profile"
           >
             <svg
               fill="currentColor"
@@ -38,6 +39,7 @@ export default function Footer() {
           <Link
             className="text-gray-400 hover:text-accent-dark transition-colors"
             href="https://github.com/hsemihaktas"
+            aria-label="GitHub Profile"
           >
             <svg
               fill="currentColor"

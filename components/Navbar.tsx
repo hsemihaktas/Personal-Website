@@ -52,6 +52,7 @@ export default function Navbar() {
         <button
           onClick={toggleLanguage}
           className="flex items-center justify-center rounded-lg h-10 px-4 bg-secondary-dark/70 hover:bg-gray-800/80 text-sm font-bold transition-colors"
+          aria-label="Change language"
         >
           <span className="truncate">{lang === "en" ? "TR" : "EN"}</span>
         </button>
@@ -59,6 +60,7 @@ export default function Navbar() {
       <button
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         className="md:hidden flex items-center justify-center rounded-lg h-10 px-4 bg-secondary-dark/70 hover:bg-gray-800/80 text-sm font-bold transition-colors"
+        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
       >
         {isMenuOpen ? (
           <FaTimes className="text-lg text-white" />
