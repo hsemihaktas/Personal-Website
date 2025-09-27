@@ -38,6 +38,7 @@ export default function About() {
                 src="/images/profilePicture.webp"
                 height={300}
                 width={300}
+                priority
               />
             </div>
           </div>
