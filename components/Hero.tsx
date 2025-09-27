@@ -7,16 +7,14 @@ export default function Hero() {
 
   const heroContent = {
     en: {
-      title: "Software Engineer",
+      title: "Computer Engineer",
       description:
-        "I'm a passionate software engineer with a focus on building innovative solutions. Explore my projects and experience.",
-      button: "View Projects",
+        "I love creating software that helps make everyday life easier.",
     },
     tr: {
-      title: "Yazılım Mühendisi",
+      title: "Bilgisayar Mühendisi",
       description:
-        "Yenilikçi çözümler geliştirmeye odaklanan tutkulu bir yazılım mühendisiyim. Projelerimi ve deneyimlerimi keşfedin.",
-      button: "Projeleri Görüntüle",
+        "Kullanıcıların hayatını kolaylaştıracak yazılımlar geliştirmekten keyif alıyorum",
     },
   };
 
@@ -31,9 +29,6 @@ export default function Hero() {
         <p className="text-base md:text-lg text-gray-300">
           {content.description}
         </p>
-        <button className="bg-accent-dark hover:bg-accent-dark/80 text-primary-dark font-bold rounded-lg h-12 px-6 text-base transition-colors">
-          <span className="truncate">{content.button}</span>
-        </button>
       </div>
     </section>
   );
