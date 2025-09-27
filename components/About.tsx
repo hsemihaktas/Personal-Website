@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section
@@ -8,23 +10,24 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-start gap-8">
           <div className="w-full md:w-1/3 flex-shrink-0">
             <div className="aspect-square rounded-lg bg-secondary-dark border-2 border-accent-dark/30 flex items-center justify-center overflow-hidden">
-              <img
+              <Image
                 alt="Profile Photo"
-                className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKGrnTkVytU7dwhOjrG2ah8RJcfTMbfqqfoKlBakKnsJpkBdGGGQhbpgjmbvLOfoUQ-qPzuGyiqGFX2WT2fsCGs26TQ2D7ND0JJXqLVXt2xIWADAJgbbd-_mtQnQpYMG1Fo-hfLEC1SvOf4BlUxaikphfYtZAEtZnZNU1K3447oxgScYqDGTDWFOLcLf6RBqztNnjvNzV6unC0viOxRKzXtLGoBRyvZk13he5r3ONfGx_hUrRE3E03Qpzylt9aO9dr1N2nBdC21f4"
+                className="object-cover"
+                src="/images/profilePicture.webp"
+                height={300}
+                width={300}
               />
             </div>
           </div>
           <div className="w-full md:w-2/3">
             <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
             <p className="text-base leading-relaxed text-gray-300">
-              I'm a software engineer with a strong foundation in computer
-              science principles and a passion for creating impactful software
-              solutions. My expertise spans various programming languages,
-              frameworks, and tools, allowing me to tackle diverse challenges
-              and deliver high-quality results. I'm always eager to learn and
-              adapt to new technologies, ensuring that my skills remain at the
-              forefront of the industry.
+              Hello! I'm Hasan Semih Aktaş. I've built websites using React,
+              Next.js, TypeScript, and modern web technologies. Recently, I've
+              been learning to develop mobile applications with React Native. I
+              enjoy keeping up with new technologies, experimenting with them,
+              and constantly improving myself. My goal is to develop
+              applications and websites that everyone can use and enjoy.
             </p>
           </div>
         </div>
