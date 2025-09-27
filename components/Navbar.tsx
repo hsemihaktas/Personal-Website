@@ -28,18 +28,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-secondary-dark/50 bg-primary-dark/80 backdrop-blur-sm px-10 py-4">
       <div className="flex items-center gap-4 text-white">
-        <svg
-          className="h-6 w-6 text-accent-dark"
-          fill="none"
-          viewBox="0 0 48 48"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z"
-            fill="currentColor"
-          ></path>
-        </svg>
-        <h2 className="text-xl font-bold">Tech Engineer</h2>
+        <h2 className="text-xl font-bold">Hasan Semih Aktaş</h2>
       </div>
       <nav className="hidden md:flex items-center gap-8 ">
         <Link

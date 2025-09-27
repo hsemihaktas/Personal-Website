@@ -170,20 +170,20 @@ export default function ProjectPage({
                   )}
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                     {project.projectSite && (
-                      <a
+                      <Link
                         className="bg-accent-dark hover:bg-accent-dark/80 text-primary-dark font-bold rounded-lg h-12 px-6 text-base transition-colors flex items-center justify-center w-full sm:w-auto"
                         href={project.projectSite}
                       >
                         <span>{content.liveDemo}</span>
-                      </a>
+                      </Link>
                     )}
                     {project.codeLink && (
-                      <a
+                      <Link
                         className="bg-secondary-dark/70 hover:bg-gray-800/80 text-white font-bold rounded-lg h-12 px-6 text-base transition-colors flex items-center justify-center w-full sm:w-auto"
                         href={project.codeLink}
                       >
                         <span>{content.viewRepository}</span>
-                      </a>
+                      </Link>
                     )}
                   </div>
                 </div>
