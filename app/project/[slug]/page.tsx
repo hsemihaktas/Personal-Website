@@ -82,8 +82,8 @@ export default function ProjectPage({
                     ))}
                   </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-                  <div>
+                {!project.imageFiles || project.imageFiles.length === 0 ? (
+                  <div className="mb-8">
                     <h3 className="text-2xl font-bold text-white mb-4">
                       Features
                     </h3>
@@ -93,7 +93,18 @@ export default function ProjectPage({
                       ))}
                     </ul>
                   </div>
-                  {project.imageFiles && project.imageFiles.length > 0 && (
+                ) : (
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    <div>
+                      <h3 className="text-2xl font-bold text-white mb-4">
+                        Features
+                      </h3>
+                      <ul className="list-disc list-inside text-gray-300 space-y-2">
+                        {project.features.EN.map((feature, index) => (
+                          <li key={index}>{feature}</li>
+                        ))}
+                      </ul>
+                    </div>
                     <div>
                       <h3 className="text-2xl font-bold text-white mb-4">
                         Screenshots
@@ -124,8 +135,8 @@ export default function ProjectPage({
                         )}
                       </div>
                     </div>
-                  )}
-                </div>
+                  </div>
+                )}
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <a
                     className="bg-accent-dark hover:bg-accent-dark/80 text-primary-dark font-bold rounded-lg h-12 px-6 text-base transition-colors flex items-center justify-center w-full sm:w-auto"

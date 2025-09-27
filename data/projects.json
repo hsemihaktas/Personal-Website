@@ -23,11 +23,7 @@
     },
     "codeLink": "https://github.com/hsemihaktas/EncryptDiary",
     "coverImageFile": "/images/Encrypt-Diary-Icon.png",
-    "imageFiles": [
-      "/images/Encrypt-Diary-Icon.png",
-      "/images/Encrypt-Diary-Icon.png",
-      "/images/Encrypt-Diary-Icon.png"
-    ],
+    "imageFiles": [],
     "projectSite": "",
     "url": "/project/encrypt-diary",
     "technologies": ["React Native", "Expo", "expo-crypto", "AES", "Mobile"]
