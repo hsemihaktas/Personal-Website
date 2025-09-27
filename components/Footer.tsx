@@ -8,10 +8,10 @@ export default function Footer() {
 
   const footerContent = {
     en: {
-      copyright: "© 2024 Tech Engineer. All rights reserved.",
+      copyright: "© 2025 Hasan Semih Aktaş. All rights reserved.",
     },
     tr: {
-      copyright: "© 2024 Tech Engineer. Tüm hakları saklıdır.",
+      copyright: "© 2025 Hasan Semih Aktaş. Tüm hakları saklıdır.",
     },
   };
 
