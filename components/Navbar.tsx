@@ -43,7 +43,7 @@ export default function Navbar() {
         </Link>
         <Link
           className="text-sm font-medium hover:text-accent-dark transition-colors"
-          href="/projects"
+          href="/#projects"
         >
           {content.projects}
         </Link>
@@ -88,7 +88,7 @@ export default function Navbar() {
             </Link>
             <Link
               className="text-sm font-medium hover:text-accent-dark transition-colors"
-              href="/projects"
+              href="/#project"
               onClick={() => setIsMenuOpen(false)}
             >
               {content.projects}
