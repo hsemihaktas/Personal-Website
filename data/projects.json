@@ -131,7 +131,7 @@
       "TR": "React, Node.js ve MySQL kullanılarak inşa edilen, güvenli kimlik doğrulama ile emlak listelemelerini yönetmek için bir platform."
     },
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
-    "coverImageFile": "/images/EstateWebsite.png",
+    "coverImageFile": "/images/Estate/Cover.png",
     "imageFiles": [],
     "projectSite": "",
     "url": "/project/property-website",
