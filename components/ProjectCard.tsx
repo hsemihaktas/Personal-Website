@@ -27,13 +27,14 @@ export default function ProjectCard({
 
   return (
     <div className="group flex flex-col h-[400px] bg-secondary-dark/70 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-accent-dark/10 hover:scale-105 border border-transparent hover:border-accent-dark/30">
-      <div className="w-full h-48 relative">
+      <div className="w-full h-34 relative">
         <Image
           src={image}
           alt={title[currentLang]}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="rounded-t-lg object-cover"
+          className="rounded-t-lg object-cover object-top"
+          quality={100}
         />
       </div>
       <div className="p-4 flex-1 flex flex-col justify-between">

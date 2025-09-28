@@ -81,8 +81,9 @@ export default function ProjectPage({
                     alt={project.title.EN}
                     fill
                     priority
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="rounded-t-lg object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 50vw"
+                    quality={100}
+                    className="rounded-t-lg object-cover object-top"
                   />
                 </div>
                 <div className="p-8 md:p-12">
@@ -151,7 +152,8 @@ export default function ProjectPage({
                                   src={image}
                                   alt={`Screenshot ${index + 1}`}
                                   fill
-                                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 50vw"
+                                  quality={100}
                                   className="rounded-lg object-cover"
                                 />
                               </div>

@@ -22,7 +22,7 @@
       "TR": "AES şifreleme ile güvenli not tutma uygulaması, React Native & Expo ile geliştirildi."
     },
     "codeLink": "https://github.com/hsemihaktas/EncryptDiary",
-    "coverImageFile": "/images/Encrypt-Diary-Icon.png",
+    "coverImageFile": "/images/EncryptDiary/Cover.png",
     "imageFiles": [],
     "projectSite": "",
     "url": "/project/encrypt-diary",
@@ -50,11 +50,36 @@
       "TR": "Kelime çeviri, eşanlamlı ve etkileşimli öğrenim için mobil uygulama."
     },
     "codeLink": "https://github.com/hsemihaktas/Lexicon-WordApplication",
-    "coverImageFile": "/images/Lexicon-Icon.png",
+    "coverImageFile": "/images/Lexicon/Cover.png",
     "imageFiles": [],
     "projectSite": "",
     "url": "/project/word-application-lexicon",
     "technologies": ["React Native", "Expo", "MyMemory API", "Datamuse API"]
+  },
+  {
+    "title": { "EN": "FaceRateMax Website", "TR": "FaceRateMax Web Sitesi" },
+    "features": {
+      "EN": [
+        "Showcases the FaceRateMax AI-powered face analysis application.",
+        "Built with Next.js and TailwindCSS for a modern and responsive design.",
+        "Provides information about the app, which is exclusively available on mobile devices."
+      ],
+      "TR": [
+        "FaceRateMax yapay zeka destekli yüz analizi uygulamasını sergiler.",
+        "Modern ve duyarlı bir tasarım için Next.js ve TailwindCSS ile oluşturuldu.",
+        "Sadece mobil cihazlarda kullanılabilen uygulama hakkında bilgi sağlar."
+      ]
+    },
+    "description": {
+      "EN": "A website for the FaceRateMax app, showcasing its features and providing information for mobile users.",
+      "TR": "FaceRateMax uygulaması için bir web sitesi, özelliklerini sergiler ve mobil kullanıcılar için bilgi sağlar."
+    },
+    "codeLink": "https://github.com/hsemihaktas/FaceRateMax",
+    "coverImageFile": "/images/FaceRateMaxWebsite/Cover.png",
+    "imageFiles": [],
+    "projectSite": "https://face-rate-max.vercel.app/",
+    "url": "/project/faceratemax-website",
+    "technologies": ["Next.js", "TailwindCSS"]
   },
   {
     "title": { "EN": "IMDB Series Tierlist", "TR": "IMDB Dizi Tier Listesi" },
@@ -77,7 +102,7 @@
       "TR": "Sürükle bırak işlevselliği ve Python scraper ile veri çekme özellikli dizi sıralama web uygulaması."
     },
     "codeLink": "https://github.com/hsemihaktas/IMDB-Series-Tierlist",
-    "coverImageFile": "/images/IMDB-Series-Tierlist.jpeg",
+    "coverImageFile": "/images/IMDBTierlist/Cover.jpeg",
     "imageFiles": [],
     "projectSite": "https://imdb-series-tierlist.vercel.app/",
     "url": "/project/imdb-series-tierlist",
@@ -134,66 +159,11 @@
       "TR": "EmailJS ile iletişim formu ve online rezervasyon özellikli doğum günü organizasyon web sitesi."
     },
     "codeLink": "https://github.com/hsemihaktas/Birthday-Organization",
-    "coverImageFile": "/images/Birthday-Organization.jpeg",
+    "coverImageFile": "/images/Organization/Cover.jpeg",
     "imageFiles": [],
     "projectSite": "https://birthday-organization.vercel.app/",
     "url": "/project/birthday-organization",
     "technologies": ["NextJS", "TailwindCSS", "HTML5", "CSS3", "JavaScript"]
-  },
-  {
-    "title": { "EN": "PAE Website", "TR": "PAE Web Sitesi" },
-    "features": {
-      "EN": [
-        "Developed an optimized web application with Next.js using Tailwind CSS and HTML5.",
-        "Collaborated with UI/UX teams to ensure timely completion of projects."
-      ],
-      "TR": [
-        "Tailwind CSS ve HTML5 kullanarak Next.js ile optimize edilmiş bir web uygulaması geliştirdim.",
-        "UI/UX ekipleriyle koordineli çalışarak projelerin zamanında tamamlanmasını sağladım."
-      ]
-    },
-    "description": {
-      "EN": "A fast and responsive Next.js website with a user friendly interface and optimized performance.",
-      "TR": "Hızlı ve duyarlı bir Next.js web sitesi, kullanıcı dostu bir arayüz ve optimize edilmiş performans."
-    },
-    "codeLink": "",
-    "coverImageFile": "/images/PAE.jpeg",
-    "imageFiles": [],
-    "projectSite": "",
-    "url": "/project/pae-website",
-    "technologies": ["NextJS", "TailwindCSS", "JavaScript", "HTML5", "CSS3"]
-  },
-  {
-    "title": { "EN": "Now Yapı Website", "TR": "Now Yapı Web Sitesi" },
-    "features": {
-      "EN": [
-        "Led the development of a React.js based frontend and integrated responsive designs using Tailwind CSS.",
-        "Created interactive sliders with Swiper.js, enhancing visual appeal and user engagement.",
-        "Streamlined API communication with JSON data integration, ensuring seamless data retrieval."
-      ],
-      "TR": [
-        "React.js tabanlı bir frontend geliştirmesin bulundum, Tailwind CSS ile responsive tasarımlar entegre ettim.",
-        "Swiper.js kullanarak etkileşimli slider’lar oluşturdum, görsel çekicilik ve kullanıcı etkileşimini artırdım.",
-        "JSON veri entegrasyonu ile API iletişimini düzenleyerek gerekli verilerin sorunsuz bir şekilde çekilmesini sağladım."
-      ]
-    },
-    "description": {
-      "EN": "An elegant React based website for a construction company, featuring interactive sliders and seamless UX.",
-      "TR": "Etkileşimli kaydırıcılar ve sorunsuz UX içeren, bir inşaat şirketi için şık bir React tabanlı web sitesi."
-    },
-    "codeLink": "",
-    "coverImageFile": "/images/NowYapı.jpeg",
-    "imageFiles": [],
-    "projectSite": "https://now-yapi.vercel.app/",
-    "url": "/project/now-yapi-website",
-    "technologies": [
-      "ReactJS",
-      "TailwindCSS",
-      "JSON",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ]
   },
   {
     "title": { "EN": "Riot Twitch Bot", "TR": "Riot Twitch Botu" },
@@ -216,7 +186,7 @@
       "TR": "Riot API'sini kullanarak, League of Legends ve Teamfight Tactics için canlı oyun istatistikleri sağlayan bir Twitch botu."
     },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
-    "coverImageFile": "/images/RiotTwitchBot.png",
+    "coverImageFile": "/images/RiotBot/Cover.png",
     "imageFiles": [],
     "projectSite": "",
     "url": "/project/riot-twitch-bot",
@@ -244,10 +214,37 @@
       "TR": "Riot Twitch Botu projesi için etkileşimli öğeler ve duyarlı tasarım içeren bir sergileme web sitesi."
     },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
-    "coverImageFile": "/images/RiotTwitchBotWebsite.png",
+    "coverImageFile": "/images/RiotBotWebsite/Cover.png",
     "imageFiles": [],
     "projectSite": "https://riottwitchbot.vercel.app/",
     "url": "/project/riot-twitch-bot-website",
     "technologies": ["ReactJS", "HTML5", "CSS3", "JavaScript", "JSON"]
+  },
+  {
+    "title": { "EN": "BlurFace", "TR": "BlurFace" },
+    "features": {
+      "EN": [
+        "An AI-powered face blurring application for privacy protection.",
+        "Built with Python and OpenCV for real-time face detection and blurring.",
+        "Supports both image and video processing.",
+        "User-friendly interface for selecting blur intensity and regions."
+      ],
+      "TR": [
+        "Gizlilik koruması için yapay zeka destekli yüz bulanıklaştırma uygulaması.",
+        "Gerçek zamanlı yüz algılama ve bulanıklaştırma için Python ve OpenCV ile geliştirildi.",
+        "Hem görüntü hem de video işleme desteği sunar.",
+        "Bulanıklık yoğunluğu ve bölgelerini seçmek için kullanıcı dostu bir arayüz."
+      ]
+    },
+    "description": {
+      "EN": "An AI-powered application for face blurring in images and videos, built with Python and OpenCV.",
+      "TR": "Python ve OpenCV ile geliştirilen, görüntü ve videolarda yüz bulanıklaştırma için yapay zeka destekli bir uygulama."
+    },
+    "codeLink": "https://github.com/hsemihaktas/BlurryFace",
+    "coverImageFile": "/images/BlurFace/Cover.png",
+    "imageFiles": [],
+    "projectSite": "",
+    "url": "/project/blurryface",
+    "technologies": ["Django", "Python", "OpenCV", "AI", "Computer Vision"]
   }
 ]
