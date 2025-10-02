@@ -115,6 +115,38 @@
     ]
   },
   {
+    "title": {
+      "EN": "Gaming Website",
+      "TR": "Oyun Web Sitesi"
+    },
+    "features": {
+      "EN": [
+        "Designed and developed a modern gaming website to showcase front-end skills.",
+        "Implemented dynamic game pages with mock data, including story, gameplay, features, and media gallery.",
+        "Created a fully responsive design optimized for desktop and mobile devices.",
+        "Enhanced user experience with interactive UI elements such as hover effects and animations.",
+        "Utilized Next.js for dynamic routing and server-side rendering."
+      ],
+      "TR": [
+        "Front-end becerilerini sergilemek için modern bir oyun web sitesi tasarladım ve geliştirdim.",
+        "Hikaye, oynanış, özellikler ve medya galerisi gibi bölümleri içeren, mock verilerle çalışan dinamik oyun sayfaları oluşturdum.",
+        "Masaüstü ve mobil cihazlar için optimize edilmiş tamamen duyarlı bir tasarım geliştirdim.",
+        "Hover efektleri ve animasyonlar gibi etkileşimli UI öğeleriyle kullanıcı deneyimini geliştirdim.",
+        "Dinamik yönlendirme ve sunucu tarafı render için Next.js kullandım."
+      ]
+    },
+    "description": {
+      "EN": "A front-end focused gaming website built with Next.js to demonstrate design and development skills using mock data.",
+      "TR": "Mock veriler kullanarak tasarım ve geliştirme becerilerini sergilemek için Next.js ile inşa edilmiş front-end odaklı bir oyun web sitesi."
+    },
+    "codeLink": "https://github.com/hsemihaktas/Gaming-Website",
+    "coverImageFile": "/images/GamingWebsite/Cover.png",
+    "imageFiles": [],
+    "projectSite": "https://hgamepulse.vercel.app/",
+    "url": "/project/gaming-website",
+    "technologies": ["Next.js", "ReactJS", "JavaScript", "TailwindCSS"]
+  },
+  {
     "title": { "EN": "Property Website", "TR": "Emlak Web Sitesi" },
     "features": {
       "EN": [

@@ -34,7 +34,6 @@ export default function ProjectCard({
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="rounded-t-lg object-cover object-top"
-          quality={100}
         />
       </div>
       <div className="p-4 flex-1 flex flex-col justify-between">
