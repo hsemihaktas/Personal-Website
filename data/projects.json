@@ -115,7 +115,7 @@
     "codeLink": "https://github.com/hsemihaktas/E-Commerce-Website",
     "coverImageFile": "/images/E-Commerce/Cover.png",
     "imageFiles": [],
-    "projectSite": "https://demo-eticaret.vercel.app/",
+    "projectSite": "https://demo-e-ticaret.vercel.app/",
     "url": "/project/ecommerce-platform",
     "technologies": [
       "Next.js",
