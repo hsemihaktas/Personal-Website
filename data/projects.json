@@ -82,6 +82,52 @@
     "technologies": ["Next.js", "TailwindCSS"]
   },
   {
+    "title": {
+      "EN": "Modern E-Commerce Platform",
+      "TR": "Modern E-Ticaret Platformu"
+    },
+    "features": {
+      "EN": [
+        "Developed a comprehensive multi-vendor e-commerce platform where users can create their own stores and sell products.",
+        "Implemented secure user authentication and store management system with Firebase Authentication and Firestore.",
+        "Built a complete dashboard with real-time analytics, product management, order tracking, and financial reporting.",
+        "Created responsive design optimized for all devices with modern UI/UX using Tailwind CSS.",
+        "Developed shopping cart functionality, order processing, and store customization features.",
+        "Implemented real-time inventory tracking, low stock alerts, and automated stock management.",
+        "Built custom modal system replacing browser alerts for better user experience.",
+        "Added phone number formatting for Turkish users and comprehensive form validation."
+      ],
+      "TR": [
+        "Kullanıcıların kendi mağazalarını oluşturabildiği ve ürün satabildikleri kapsamlı çok-satıcılı e-ticaret platformu geliştirdim.",
+        "Firebase Authentication ve Firestore ile güvenli kullanıcı kimlik doğrulama ve mağaza yönetim sistemi uyguladım.",
+        "Gerçek zamanlı analitikler, ürün yönetimi, sipariş takibi ve finansal raporlama ile eksiksiz bir dashboard oluşturdum.",
+        "Tailwind CSS kullanarak modern UI/UX ile tüm cihazlar için optimize edilmiş responsive tasarım geliştirdim.",
+        "Alışveriş sepeti işlevselliği, sipariş işleme ve mağaza özelleştirme özelliklerini geliştirdim.",
+        "Gerçek zamanlı envanter takibi, düşük stok uyarıları ve otomatik stok yönetimi uyguladım.",
+        "Daha iyi kullanıcı deneyimi için browser alertlerinin yerini alan özel modal sistemi oluşturdum.",
+        "Türk kullanıcıları için telefon numarası formatlaması ve kapsamlı form doğrulama ekledim."
+      ]
+    },
+    "description": {
+      "EN": "A full-stack e-commerce platform built with Next.js and Firebase, enabling users to create stores, manage products, and process orders with real-time dashboard analytics.",
+      "TR": "Next.js ve Firebase ile inşa edilmiş, kullanıcıların mağaza oluşturmasına, ürün yönetmesine ve gerçek zamanlı dashboard analitikleri ile sipariş işlemesine olanak tanıyan full-stack e-ticaret platformu."
+    },
+    "codeLink": "https://github.com/hsemihaktas/E-Commerce-Website",
+    "coverImageFile": "/images/E-Commerce/Cover.png",
+    "imageFiles": [],
+    "projectSite": "https://demo-eticaret.vercel.app/",
+    "url": "/project/ecommerce-platform",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Firebase",
+      "Firebase Authentication",
+      "Firestore",
+      "TailwindCSS",
+      "React"
+    ]
+  },
+  {
     "title": { "EN": "IMDB Series Tierlist", "TR": "IMDB Dizi Tier Listesi" },
     "features": {
       "EN": [
