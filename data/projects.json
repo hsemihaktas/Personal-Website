@@ -82,6 +82,44 @@
     "technologies": ["Next.js", "TailwindCSS"]
   },
   {
+    "title": { "EN": "TaskFlow", "TR": "TaskFlow" },
+    "features": {
+      "EN": [
+        "Modern task and project management system built with Next.js and TypeScript.",
+        "Backend powered by Supabase and PostgreSQL.",
+        "Role-based organization structure (Owner, Admin, Member).",
+        "Interactive Kanban board with drag-and-drop task management.",
+        "Real-time updates through optimized polling.",
+        "Clean, responsive, and user-friendly UI design."
+      ],
+      "TR": [
+        "Next.js ve TypeScript ile geliştirilmiş modern görev ve proje yönetim sistemi.",
+        "Supabase ve PostgreSQL ile desteklenen backend altyapısı.",
+        "Rol tabanlı organizasyon yapısı (Owner, Admin, Member).",
+        "Sürükle-bırak destekli interaktif Kanban görev tahtası.",
+        "Optimize edilmiş polling yöntemiyle gerçek zamanlı güncellemeler.",
+        "Temiz, duyarlı ve kullanıcı dostu arayüz tasarımı."
+      ]
+    },
+    "description": {
+      "EN": "A modern and secure task management system built with Next.js, Supabase, and TypeScript.",
+      "TR": "Next.js, Supabase ve TypeScript kullanılarak geliştirilmiş modern ve güvenli bir görev yönetim sistemi."
+    },
+    "codeLink": "https://github.com/hsemihaktas/TaskFlow",
+    "coverImageFile": "/images/TaskFlow/Cover.png",
+    "imageFiles": [],
+    "projectSite": "https://demo-task-flow.vercel.app/",
+    "url": "/project/taskflow",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "TailwindCSS",
+      "Kanban"
+    ]
+  },
+  {
     "title": {
       "EN": "Modern E-Commerce Platform",
       "TR": "Modern E-Ticaret Platformu"
