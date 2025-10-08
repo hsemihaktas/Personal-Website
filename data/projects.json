@@ -108,7 +108,7 @@
     "codeLink": "https://github.com/hsemihaktas/TaskFlow",
     "coverImageFile": "/images/TaskFlow/Cover.png",
     "imageFiles": [],
-    "projectSite": "https://demo-task-flow.vercel.app/",
+    "projectSite": "",
     "url": "/project/taskflow",
     "technologies": [
       "Next.js",
