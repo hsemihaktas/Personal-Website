@@ -26,7 +26,7 @@ export default function ProjectCard({
   const currentLang = lang.toUpperCase() as "EN" | "TR";
 
   return (
-    <div className="group flex flex-col h-[400px] bg-secondary-dark/70 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-accent-dark/10 hover:scale-105 border border-transparent hover:border-accent-dark/30">
+    <div className="group flex flex-col h-[400px] bg-secondary-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-accent-dark/10 hover:scale-105 border border-transparent hover:border-accent-dark/30">
       <div className="w-full h-34 relative">
         <Image
           src={image}

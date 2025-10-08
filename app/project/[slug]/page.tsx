@@ -74,7 +74,7 @@ export default function ProjectPage({
                   <span>{content.backToProjects}</span>
                 </Link>
               </div>
-              <div className="bg-secondary-dark/70 rounded-xl overflow-hidden shadow-2xl shadow-accent-dark/10 border border-secondary-dark">
+              <div className="bg-secondary-dark rounded-xl overflow-hidden shadow-2xl shadow-accent-dark/10 border border-secondary-dark">
                 <div className="w-full h-64 md:h-96 relative">
                   <Image
                     src={`${project.coverImageFile}`}
@@ -193,7 +193,7 @@ export default function ProjectPage({
                     )}
                     {project.codeLink && (
                       <Link
-                        className="bg-secondary-dark/70 hover:bg-gray-800/80 text-white font-bold rounded-lg h-12 px-6 text-base transition-colors flex items-center justify-center w-full sm:w-auto"
+                        className="bg-black hover:bg-black/60 text-white font-bold rounded-lg h-12 px-6 text-base transition-colors flex items-center justify-center w-full sm:w-auto"
                         href={project.codeLink}
                       >
                         <svg

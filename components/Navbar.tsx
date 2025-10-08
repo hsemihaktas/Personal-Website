@@ -30,7 +30,7 @@ export default function Navbar() {
   const content = navContent[lang];
 
   return (
-    <header className="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-secondary-dark/50 bg-primary-dark/80 backdrop-blur-sm px-10 py-4">
+    <header className="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-secondary-dark/50 bg-primary-dark/50 backdrop-blur-sm px-10 py-4">
       <div className="flex items-center gap-4 text-white">
         <h2 className="text-xl font-bold">Hasan Semih Aktaş</h2>
       </div>
