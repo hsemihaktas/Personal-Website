@@ -49,7 +49,7 @@ export default function ProjectCard({
               {technologies.map((tech) => (
                 <li
                   key={tech}
-                  className="border border-accent-dark/20 bg-transparent text-accent-dark px-2 py-1 rounded-lg text-xs font-medium"
+                  className="border border-accent-dark/20 bg-transparent text-accent-dark px-2 py-1 text-xs font-medium"
                 >
                   {tech}
                 </li>

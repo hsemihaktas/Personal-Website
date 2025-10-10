@@ -100,7 +100,7 @@ export default function ProjectPage({
                       {project.technologies.map((tech, index) => (
                         <span
                           key={index}
-                          className="bg-accent-dark/20 text-accent-dark font-medium rounded-full px-4 py-1 text-sm"
+                          className="border-2 border-accent-dark/20 bg-transparent text-accent-dark font-medium px-4 py-1 text-sm"
                         >
                           {tech}
                         </span>

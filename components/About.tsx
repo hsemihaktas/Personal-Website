@@ -48,7 +48,35 @@ export default function About() {
             <p className="text-base leading-relaxed text-gray-300">
               {content.description}
             </p>
-            <div className="mt-4 inline-block">
+            <div className="mt-4">
+              <h3 className="flex items-center gap-2 text-base font-mono font-semibold text-gray-200 tracking-widest mb-2 uppercase">
+                <span className="text-xl">&lt;/&gt;</span>
+                TECHNICAL SKILLS
+              </h3>
+              <ul className="flex flex-wrap gap-2">
+                {[
+                  "React",
+                  "Next.js",
+                  "React Native",
+                  "TypeScript",
+                  "JavaScript",
+                  "TailwindCSS",
+                  "Expo",
+                  "Node.js",
+                  "Firebase",
+                  "PostgreSQL",
+                  "Supabase",
+                ].map((tech) => (
+                  <li
+                    key={tech}
+                    className="border border-gray-300 bg-transparent text-gray-300 px-2 py-1 text-xs font-medium"
+                  >
+                    {tech}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="mt-4 w-full sm:w-auto flex sm:inline-block justify-center sm:justify-start">
               <a
                 href="/HasanSemihAktas-CV.pdf" // Replace with the actual path to your resume file
                 download
