@@ -32,7 +32,11 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-secondary-dark/50 bg-primary-dark/50 backdrop-blur-sm px-10 py-4">
       <div className="flex items-center gap-4 text-white">
-        <h2 className="text-xl font-bold">Hasan Semih Aktaş</h2>
+        <Link href="/">
+          <h2 className="text-xl font-bold cursor-pointer">
+            Hasan Semih Aktaş
+          </h2>
+        </Link>
       </div>
       <nav className="hidden md:flex items-center gap-8">
         <Link
