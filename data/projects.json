@@ -121,8 +121,8 @@
   },
   {
     "title": {
-      "EN": "Modern E-Commerce Platform",
-      "TR": "Modern E-Ticaret Platformu"
+      "EN": "E-Commerce Platform",
+      "TR": "E-Ticaret Platformu"
     },
     "features": {
       "EN": [
@@ -147,8 +147,8 @@
       ]
     },
     "description": {
-      "EN": "A full-stack e-commerce platform built with Next.js and Firebase, enabling users to create stores, manage products, and process orders with real-time dashboard analytics.",
-      "TR": "Next.js ve Firebase ile inşa edilmiş, kullanıcıların mağaza oluşturmasına, ürün yönetmesine ve gerçek zamanlı dashboard analitikleri ile sipariş işlemesine olanak tanıyan full-stack e-ticaret platformu."
+      "EN": "A full-stack e-commerce platform with Next.js and Firebase, allowing users to create stores, manage products, and track orders.",
+      "TR": "Next.js ve Firebase ile geliştirilmiş, kullanıcıların mağaza oluşturup ürün ve sipariş yönetimi yapabildiği tam kapsamlı bir e-ticaret platformu."
     },
     "codeLink": "https://github.com/hsemihaktas/E-Commerce-Website",
     "coverImageFile": "/images/E-Commerce/Cover.png",
