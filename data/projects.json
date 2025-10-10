@@ -158,11 +158,9 @@
     "technologies": [
       "Next.js",
       "TypeScript",
-      "Firebase",
       "Firebase Authentication",
-      "Firestore",
-      "TailwindCSS",
-      "React"
+      "Firestore Database",
+      "TailwindCSS"
     ]
   },
   {
