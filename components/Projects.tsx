@@ -56,6 +56,7 @@ export default function Projects() {
                     TR: project.description.TR,
                   }}
                   url={project.url}
+                  technologies={project.technologies}
                 />
               </div>
             </Transition>

@@ -9,6 +9,7 @@ interface ProjectCardProps {
   title: { EN: string; TR: string };
   description: { EN: string; TR: string };
   url: string;
+  technologies?: string[];
 }
 
 const buttonText = {
@@ -21,6 +22,7 @@ export default function ProjectCard({
   title,
   description,
   url,
+  technologies = [],
 }: ProjectCardProps) {
   const { lang } = useLang();
   const currentLang = lang.toUpperCase() as "EN" | "TR";
@@ -39,9 +41,21 @@ export default function ProjectCard({
       <div className="p-4 flex-1 flex flex-col justify-between">
         <div>
           <h3 className="text-lg font-bold text-white">{title[currentLang]}</h3>
-          <p className="text-sm text-gray-400 mt-1 mb-4">
+          <p className="text-sm text-gray-400 mt-1 mb-2">
             {description[currentLang]}
           </p>
+          {technologies.length > 0 && (
+            <ul className="flex flex-wrap gap-2 mb-4">
+              {technologies.map((tech) => (
+                <li
+                  key={tech}
+                  className="border border-accent-dark/20 bg-transparent text-accent-dark px-2 py-1 rounded-lg text-xs font-medium"
+                >
+                  {tech}
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
         <Link href={url}>
           <button
