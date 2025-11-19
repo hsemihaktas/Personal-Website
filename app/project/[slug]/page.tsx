@@ -152,13 +152,13 @@ export default function ProjectPage({
                                   alt={`Screenshot ${index + 1}`}
                                   fill
                                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 50vw"
-                                  className="rounded-lg object-cover"
+                                  className="rounded-lg object-contain"
                                 />
                               </div>
                             ))}
                           {project.imageFiles.length > 2 && (
                             <button
-                              className="col-span-2 bg-accent-dark hover:bg-accent-dark/80 text-primary-dark font-bold rounded-lg h-12 text-base transition-colors flex items-center justify-center w-full"
+                              className="col-span-2 bg-accent-dark/20 text-accent-dark hover:bg-accent-dark/40 font-bold rounded-lg h-12 text-base transition-colors flex items-center justify-center w-full"
                               onClick={() => setIsModalOpen(true)}
                             >
                               View More

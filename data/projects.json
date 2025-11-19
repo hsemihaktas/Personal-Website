@@ -1,5 +1,48 @@
 [
   {
+    "title": { "EN": "Beauty Center App", "TR": "Güzellik Merkezi Uygulaması" },
+    "features": {
+      "EN": [
+        "Discover beauty centers with detailed information and reviews.",
+        "Book appointments with real-time availability for services and staff.",
+        "Rate and review completed appointments with photo uploads.",
+        "Push notifications for reminders and updates.",
+        "Dark and light theme support for a modern user experience."
+      ],
+      "TR": [
+        "Güzellik merkezlerini detaylı bilgiler ve yorumlarla keşfedin.",
+        "Hizmetler ve çalışanlar için gerçek zamanlı uygunluk ile randevu alın.",
+        "Tamamlanan randevuları fotoğraf yüklemeleriyle puanlayın ve yorumlayın.",
+        "Hatırlatmalar ve güncellemeler için anlık bildirimler.",
+        "Modern bir kullanıcı deneyimi için açık ve koyu tema desteği."
+      ]
+    },
+    "description": {
+      "EN": "A modern mobile app for booking beauty services and managing appointments, built with React Native & Expo.",
+      "TR": "React Native & Expo ile geliştirilmiş, güzellik hizmetleri için randevu alma ve yönetme uygulaması."
+    },
+    "codeLink": "https://github.com/hsemihaktas/BeautyCenterApp",
+    "coverImageFile": "/images/BeautyCenter/Cover.png",
+    "imageFiles": [
+      "/images/BeautyCenter/1.png",
+      "/images/BeautyCenter/2.png",
+      "/images/BeautyCenter/3.png",
+      "/images/BeautyCenter/4.png",
+      "/images/BeautyCenter/5.png",
+      "/images/BeautyCenter/6.png",
+      "/images/BeautyCenter/7.png"
+    ],
+    "projectSite": "",
+    "url": "/project/beauty-center-app",
+    "technologies": [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Push Notifications",
+      "Mobile"
+    ]
+  },
+  {
     "title": { "EN": "Encrypt Diary", "TR": "Encrypt Diary" },
     "features": {
       "EN": [
